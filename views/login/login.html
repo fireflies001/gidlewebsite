@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+      <div class="side-text col-md-7">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum fringilla lobortis. Donec ut elit nec libero efficitur sollicitudin eget dictum tellus. Duis sed elit eget sapien efficitur pellentesque. Morbi sit amet sapien at odio hendrerit finibus. Quisque egestas tristique nisl, eget lobortis enim rhoncus id. Aenean ac enim non ligula efficitur posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas ac commodo elit. Sed a volutpat est, ac efficitur ante. Morbi facilisis id felis id eleifend. Vestibulum ac vestibulum lectus.</p>
+         
+      </div>
+      <div class="col-md-4">
+        <div class="card card-signin my-5 ">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="text" id="inputEmail" class="form-control" placeholder="Username" ng-model="user" required autofocus>
+                <label for="inputEmail">Email address</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="pass" required>
+                <label for="inputPassword">Password</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-signin btn-block text-uppercase" type="submit" ng-click="login(user, pass)">Sign in</button>
+              <hr class="my-4">
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+            </form>
+          </div>
+        </div>
+        <p class="register">Don't have an account yet? <a href="#">Register now</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+<footer class="page-footer font-small pt-4">
+  <hr>
+  <div class="footer-copyright text-center py-3">
+      <p>© 2020</p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
